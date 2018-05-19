@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/purp_sqr.unity
+  isLoaded: 1
+  isActive: 1
