@@ -1,22 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class PlayerMovement : MonoBehaviour {
+//yo
+public class PlayerMovement : MonoBehaviour
+{
 
     private float speed;
     public float axisX;
     public float axisY;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
 
         speed = 3;
 
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
 
         Vertical();
 
@@ -66,4 +69,5 @@ public class PlayerMovement : MonoBehaviour {
 
         return axisX;
     }
+
 }
